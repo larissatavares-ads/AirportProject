@@ -2,6 +2,7 @@
 {
     public interface IMediator
     {
-        void Notify(object sender, string events);
+        void NotifyLand(object sender, string events);
+        void NotifyTakeOff(object sender, string events);
     }
 }
